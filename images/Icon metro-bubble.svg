@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="568.5" height="388.753" viewBox="0 0 568.5 388.753">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Icon_metro-bubble);
+      }
+    </style>
+    <filter id="Icon_metro-bubble" x="0" y="0" width="568.5" height="388.753" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#001696" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Icon_metro-bubble-2" data-name="Icon metro-bubble" class="cls-1" d="M211.821,3.856C96.255,3.856,2.571,50.2,2.571,107.364s93.684,103.508,209.25,103.508c11.1,0,21.992-.431,32.623-1.255,44.947,27.365,98.6,32.272,150.47,32.992v-6.7c-28.01-8.355-52.312-23.573-52.312-40.964a29.75,29.75,0,0,1,.884-7.14c47.325-18.976,77.584-47.961,77.584-80.444C421.071,50.2,327.386,3.856,211.821,3.856Z" transform="translate(72.43 68.14)"/>
+  </g>
+</svg>
